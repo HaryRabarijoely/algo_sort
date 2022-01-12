@@ -12,7 +12,7 @@ class SecondExo {
     constructor(list) {
       this.list = list;
       this.count = 0;
-      this.build = 0;
+      this.buildcount = 0;
       this.program(this.list);
     }
   
@@ -26,11 +26,11 @@ class SecondExo {
           }
         }
         if (res) {
-          this.build++;
+          this.buildcount++;
         }
       }
       console.log(
-        `${this.build} immeubles voient le coucher du soleil avec ${this.count} comparaisons`);
+        `${this.buildcount} immeubles voient le coucher du soleil avec ${this.count} comparaisons`);
     }
 }
   new SecondExo(list);
