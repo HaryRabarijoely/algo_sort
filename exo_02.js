@@ -13,10 +13,10 @@ class SecondExo {
       this.list = list;
       this.count = 0;
       this.buildcount = 0;
-      this.program(this.list);
+      this.sort(this.list);
     }
   
-    program(list) {
+    sort(list) {
       for (let i = 0; i < list.length; i++) {
         let res = true;
         for (let j = i + 1; j < list.length; j++) {
